@@ -1,3 +1,9 @@
+# revision 21917
+# category Package
+# catalog-ctan /info/translations/microtype/de
+# catalog-date 2011-04-02 10:09:07 +0200
+# catalog-license lppl1.3
+# catalog-version 2.4
 Name:		texlive-microtype-de
 Version:	2.4
 Release:	1
@@ -20,6 +26,7 @@ TeXLive microtype-de package.
 %files
 %doc %{_texmfdistdir}/doc/latex/microtype-de/microtype-DE.dtx
 %doc %{_texmfdistdir}/doc/latex/microtype-de/microtype-DE.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -30,3 +37,5 @@ TeXLive microtype-de package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
