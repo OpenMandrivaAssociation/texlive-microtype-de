@@ -1,12 +1,12 @@
-# revision 21917
+# revision 24549
 # category Package
 # catalog-ctan /info/translations/microtype/de
-# catalog-date 2011-04-02 10:09:07 +0200
+# catalog-date 2011-04-03 23:29:51 +0200
 # catalog-license lppl1.3
 # catalog-version 2.4
 Name:		texlive-microtype-de
 Version:	2.4
-Release:	1
+Release:	2
 Summary:	Translation into German of the documentation of microtype
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/microtype/de
