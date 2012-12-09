@@ -34,3 +34,21 @@ TeXLive microtype-de package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.4-3
++ Revision: 753982
+- Rebuild to reduce used resources
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.4-2
++ Revision: 729682
+- texlive-microtype-de
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.4-1
++ Revision: 719024
+- texlive-microtype-de
+- texlive-microtype-de
+- texlive-microtype-de
+- texlive-microtype-de
+
