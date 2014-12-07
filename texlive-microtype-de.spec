@@ -6,7 +6,7 @@
 # catalog-version 2.4
 Name:		texlive-microtype-de
 Version:	2.4
-Release:	9
+Release:	10
 Summary:	Translation into German of the documentation of microtype
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/microtype/de
