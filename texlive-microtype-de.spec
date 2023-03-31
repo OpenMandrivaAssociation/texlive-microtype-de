@@ -1,6 +1,6 @@
 Name:		texlive-microtype-de
 Version:	54080
-Release:	1
+Release:	2
 Summary:	Translation into German of the documentation of microtype
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/microtype/de
